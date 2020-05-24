@@ -1300,6 +1300,15 @@ section {
 }
 
 @media (max-width: 1199px) {
+  .task-wrap-item {
+    min-height: 650px;
+  }
+  .serv-buttons div {
+    margin-right: 100px;
+  }
+  .serv-buttons a {
+    margin-left: 100px;
+  }
   .call-wrap-right form .sub small {
     width: 50%;
     padding-right: 20px;
@@ -1337,7 +1346,7 @@ section {
   }
   .serv-wrap-item {
     width: 48%;
-    min-height: 680px;
+    min-height: 570px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
