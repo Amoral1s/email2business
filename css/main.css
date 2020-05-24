@@ -2186,6 +2186,10 @@ section {
   .serv-wrap-mobi div div.button {
     width: 55%;
   }
+  .task {
+    background-image: url(../img/bg-2-mob.png);
+    background-position: 129px 188px;
+  }
   .task-wrap-item {
     padding: 10px 30px 50px 30px;
     min-height: 0;
@@ -2397,7 +2401,7 @@ section {
     padding-right: 30px !important;
   }
   .task {
-    background-position: 120px 220px;
+    background-position: 90px 190px;
   }
 }
 
