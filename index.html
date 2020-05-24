@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+  <div class="mob-menu">
+    Меню
+  </div>
   <header class="header">
     <div class="header-wrap container">
       <div class="header-wrap-logo">
@@ -20,8 +23,13 @@
         <span>Email to<br>business</span>
       </div>
       <nav class="header-wrap-menu">
+        <div class="close-mob">&times;</div>
+        <div class="header-wrap-logo mob-logo">
+          <a href="/"><img src="img/icons/logo.svg" alt="email to business"></a>
+          <span>Email to<br>business</span>
+        </div>
         <ul>
-          <li class="menu-item-has-children">
+          <li class="menu-item-has-children menu-item-has-children-active">
             <a href="#">Услуги</a>
             <ul>
               <li><a href="">Верстка адаптивного шаблона</a></li>
@@ -35,6 +43,21 @@
           <li><a href="#">Блог</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
+        <div class="header-wrap-search mob-search">
+          <div>
+            <a href=""><img src="img/icons/email.svg" alt="email"></a>
+            <a href=""><img src="img/icons/tg.svg" alt="telegram"></a>
+          </div>
+          <div>
+            <form role="search" method="get" id="searchform" action="">
+              <label>
+                <span class="screen-reader-text">Найти:</span>
+                <input type="search" class="search-field" placeholder="поиск…" value="">
+              </label>
+              <input type="submit" class="search-submit" value="Поиск">
+            </form>
+          </div>
+        </div>
       </nav>
       <div class="header-wrap-search">
         <div>
@@ -354,17 +377,17 @@
         </div>
       </a>
     </div>
-    <div class="footer-bottom">
-      <p>Copyright © 2019 Email2Business.ru</p>
-      <div>
-        <a href="" nofollow><img src="img/icons/fb.svg" alt="facebook"></a>
-        <a href="" nofollow><img src="img/icons/yt.svg" alt="youtube"></a>
-        <a href="" nofollow><img src="img/icons/tg-black.svg" alt="telegram"></a>
-        <a href="" nofollow><img src="img/icons/inst.svg" alt="instagram"></a>
-      </div>
-    </div>
+    
   </footer>
-
+  <div class="footer-bottom container">
+    <p>Copyright © 2019 Email2Business.ru</p>
+    <div>
+      <a href="" nofollow><img src="img/icons/fb.svg" alt="facebook"></a>
+      <a href="" nofollow><img src="img/icons/yt.svg" alt="youtube"></a>
+      <a href="" nofollow><img src="img/icons/tg-black.svg" alt="telegram"></a>
+      <a href="" nofollow><img src="img/icons/inst.svg" alt="instagram"></a>
+    </div>
+  </div>
 
 
 
