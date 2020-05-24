@@ -626,6 +626,10 @@ section {
           align-items: center;
 }
 
+.serv-wrap-mobi {
+  display: none;
+}
+
 .serv-wrap-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1955,6 +1959,52 @@ section {
 }
 
 @media (max-width: 578px) {
+  .serv p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .serv-wrap-mobi {
+    display: block;
+  }
+  .serv-wrap-mobi div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .serv-wrap-mobi div span {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 60px;
+    margin-top: 30px;
+  }
+  .serv-wrap-mobi div div.button {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    margin-top: 0;
+    margin-top: 30px;
+  }
+  .serv-wrap-item h3 {
+    padding-left: 0;
+  }
+  .serv-wrap-item ul {
+    display: none;
+  }
   .footer-bottom {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2069,6 +2119,34 @@ section {
 }
 
 @media (max-width: 440px) {
+  .header {
+    margin-bottom: 50px;
+  }
+  .offer-left h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .serv-wrap-item {
+    padding: 30px !important;
+  }
+  .serv-wrap-mobi div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .serv-wrap-mobi div span {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .serv-wrap-mobi div div.button {
+    width: 90%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
   .task-wrap-item {
     padding: 10px 30px 50px 30px;
     min-height: 0;
@@ -2150,12 +2228,6 @@ section {
 }
 
 @media (max-width: 380px) {
-  .serv-wrap-item img {
-    max-width: 90%;
-  }
-  .button {
-    width: 100%;
-  }
   .task-wrap-item img {
     max-width: 100%;
   }
