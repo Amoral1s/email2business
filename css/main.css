@@ -77,6 +77,7 @@ h1, h2, h3, h4, h5 {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  min-width: 320px;
 }
 
 @media (min-width: 576px) {
@@ -1884,6 +1885,12 @@ section {
     display: -ms-flexbox;
     display: flex;
   }
+  .serv-buttons {
+    margin-top: 60px;
+  }
+  .how {
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -2119,6 +2126,28 @@ section {
 }
 
 @media (max-width: 440px) {
+  .serv-wrap-item h3 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .serv-wrap-item {
+    margin-top: 110px;
+  }
+  .serv-wrap-item img {
+    max-width: 70%;
+    top: -80px;
+  }
+  .serv p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .title {
+    font-size: 20px !important;
+    line-height: 22px !important;
+  }
+  .offer-left p {
+    font-size: 14px;
+  }
   .header {
     margin-bottom: 50px;
   }
@@ -2129,23 +2158,14 @@ section {
   .serv-wrap-item {
     padding: 30px !important;
   }
-  .serv-wrap-mobi div {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
   .serv-wrap-mobi div span {
-    width: 100%;
-    margin-top: 0px;
+    width: 40%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .serv-wrap-mobi div div.button {
-    width: 90%;
-    margin-top: 0px;
-    margin-bottom: 20px;
+    width: 55%;
   }
   .task-wrap-item {
     padding: 10px 30px 50px 30px;
@@ -2170,13 +2190,19 @@ section {
   }
   .features-wrap-item {
     padding: 20px;
-    padding-left: 140px;
+    padding-left: 120px;
+    min-height: 155px;
+  }
+  .features-wrap-item h3 {
+    font-size: 16px;
   }
   .features-wrap-item p {
     margin-bottom: 5px;
+    font-size: 12px;
+    margin-top: 10px;
   }
   .features-wrap-item img {
-    max-width: 100px;
+    max-width: 80px;
     left: 30px;
   }
   .header-wrap-search {
@@ -2190,6 +2216,10 @@ section {
   .mob-search {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .features, .serv {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .header-wrap-menu ul {
     padding-left: 15px;
@@ -2224,6 +2254,81 @@ section {
   }
   .header-wrap-logo span:after {
     left: -14px;
+  }
+  .how-wrap-item p {
+    font-size: 14px;
+  }
+  .call-wrap-right form .sub small {
+    padding-right: 0;
+    font-size: 9px;
+  }
+  .serv-buttons div {
+    display: none;
+  }
+  .task-wrap-item h3 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .serv-wrap-mobi div span {
+    width: 40%;
+    font-size: 14px;
+    height: 50px;
+  }
+  .serv-wrap-mobi div div.button {
+    width: 55%;
+    font-size: 14px;
+    height: 50px;
+  }
+  .serv-buttons div {
+    margin-bottom: 50px;
+  }
+  .serv-buttons a {
+    margin-bottom: 20px;
+  }
+  .serv-buttons {
+    margin-top: 50px;
+  }
+  .how-wrap-item img {
+    max-width: 230px;
+  }
+  .task div p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .call-wrap-right form h3 {
+    font-size: 20px;
+  }
+  .call-wrap-right form p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 30px;
+  }
+  .footer-social a div b {
+    font-size: 18px;
+  }
+  .footer-social a div p {
+    font-size: 14px;
+  }
+  .footer-menu div h3 {
+    font-size: 20px;
+  }
+  .footer-menu div ul li a {
+    font-size: 14px;
+  }
+  section, footer {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+  .features .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .call-wrap {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .mob-menu {
+    border: 1px solid #0071BC;
   }
 }
 
