@@ -2198,16 +2198,20 @@ section {
     min-height: 180px;
   }
   .how-wrap-item:nth-child(2):after {
-    bottom: -346px;
+    height: 390px;
+    width: 140px;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+    bottom: -312px;
     right: 20px;
   }
   .how-wrap-item:nth-child(1):after {
     height: 440px;
     width: 260px;
     right: 27px;
-    bottom: -219px;
-    -webkit-transform: rotate(-10deg);
-            transform: rotate(-10deg);
+    bottom: -245px;
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
   }
   .features-wrap-item {
     padding: 20px;
@@ -2369,6 +2373,10 @@ section {
   }
   .mob-menu {
     border: 1px solid #0071BC;
+  }
+  .how {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
 }
 
