@@ -1269,6 +1269,10 @@ section {
   display: none;
 }
 
+.mob-logo {
+  display: none;
+}
+
 @media (max-width: 1860px) {
   .features, .task {
     background-size: contain;
@@ -1870,6 +1874,11 @@ section {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .mob-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
