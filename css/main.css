@@ -77,7 +77,6 @@ h1, h2, h3, h4, h5 {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  min-width: 320px;
 }
 
 @media (min-width: 576px) {
@@ -2354,6 +2353,12 @@ section {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+  .features .title {
+    width: 280px;
+  }
+  .features {
+    background-position: 0 top;
+  }
   .features .container {
     padding-left: 0;
     padding-right: 0;
@@ -2389,6 +2394,12 @@ section {
 }
 
 @media (max-width: 360px) {
+  .task-buttons {
+    width: 100%;
+  }
+  .task-buttons a {
+    max-width: 100%;
+  }
   .footer-bottom p {
     text-align: center;
     font-size: 14px;
