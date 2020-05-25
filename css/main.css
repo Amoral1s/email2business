@@ -943,6 +943,7 @@ header, footer {
   display: -ms-flexbox;
   display: flex;
   padding: 60px 70px;
+  padding-top: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -991,13 +992,13 @@ header, footer {
 
 .task-wrap-item p {
   color: #2D2D2D;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .task-wrap-item img {
-  max-height: 300px;
-  margin-bottom: 40px;
+  max-height: 250px;
+  margin-bottom: 30px;
 }
 
 .task-wrap-item:nth-child(2):after {
@@ -1052,7 +1053,8 @@ header, footer {
 
 .call-wrap-right form h3 {
   color: #fff;
-  font-size: 30px;
+  font-size: 32px;
+  line-height: 36px;
   margin-bottom: 15px;
 }
 
@@ -1060,12 +1062,13 @@ header, footer {
   color: #fff;
   font-size: 18px;
   margin-bottom: 50px;
+  font-weight: 600;
 }
 
 .call-wrap-right form input {
   width: 100%;
   max-width: 475px;
-  height: 50px;
+  height: 60px;
   border-radius: 15px;
   margin-bottom: 20px;
   padding-left: 20px;
@@ -1074,6 +1077,8 @@ header, footer {
 .call-wrap-right form input[type="submit"] {
   max-width: 45%;
   margin-bottom: 0;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .call-wrap-right form .sub {
@@ -1282,6 +1287,34 @@ header, footer {
 
 .mob-logo {
   display: none;
+}
+
+.serv-buttons a.button {
+  position: relative;
+  z-index: 222;
+  overflow: hidden;
+}
+
+.serv-buttons a.button p {
+  color: #fff;
+  z-index: 20;
+}
+
+.serv-buttons a.button span {
+  position: absolute;
+  background-color: #FF6871;
+  width: 0%;
+  height: 100%;
+  left: 0;
+  background-color: #FF6871;
+  border-radius: 20px;
+  z-index: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.serv-buttons a.button:hover span {
+  width: 100%;
 }
 
 @media (max-width: 1860px) {
@@ -1556,6 +1589,8 @@ header, footer {
   .call-wrap {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 0;
   }
   .call-wrap-left {
     width: 100%;
@@ -2308,7 +2343,18 @@ header, footer {
   }
   .header-wrap-search div form input[type="search"] {
     width: 327px;
-    height: 55px;
+    height: 70px;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 0;
   }
   .header-wrap-search div form input[type="search"]::-webkit-input-placeholder {
     font-size: 18px;
@@ -2329,5 +2375,9 @@ header, footer {
   .header-wrap-search div a img {
     height: 40px;
     width: 40px;
+  }
+  .call-wrap-right form input {
+    max-width: 100%;
+    font-size: 18px;
   }
 }
