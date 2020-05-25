@@ -873,14 +873,47 @@ header, footer {
   font-size: 18px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  height: 40px;
+  width: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 30px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.how-wrap .buttons p {
+  z-index: 10;
+}
+
+.how-wrap .buttons span {
+  position: absolute;
+  background-color: #FF6871;
+  border-radius: 20px;
+  width: 00%;
+  height: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  left: 0;
 }
 
 .how-wrap .buttons:hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   color: #FF6871;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+}
+
+.how-wrap .buttons:hover span {
+  width: 110%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .how-wrap .buttons:after {
@@ -894,7 +927,7 @@ header, footer {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  left: -50px;
+  left: 0px;
 }
 
 .task {
