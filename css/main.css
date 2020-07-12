@@ -2860,6 +2860,11 @@ header, footer {
   }
   .offer-left p {
     margin: 17px 0;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .offer-left b {
+    font-size: 20px;
   }
   .features {
     background-position: -98px top;
@@ -3099,5 +3104,13 @@ header, footer {
   }
   .feedback {
     margin-bottom: 0;
+  }
+  .footer-bottom div a {
+    height: 50px;
+    width: 50px;
+  }
+  .footer-bottom div a:after {
+    height: 40px;
+    width: 40px;
   }
 }
