@@ -1504,10 +1504,6 @@ header, footer {
 .speed-wrap-content-item-left img.arr {
   position: absolute;
   z-index: 10;
-  content: '';
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right center;
   top: 60px;
   right: 20px;
   -webkit-transform-origin: right bottom;
