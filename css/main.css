@@ -1590,6 +1590,8 @@ header, footer {
   bottom: 40px;
   border-radius: 30px;
   background-color: #fff;
+  -webkit-box-shadow: -12.21px 12.2082px 30.9274px rgba(230, 230, 230, 0.9), -12.21px -12.2082px 24.4164px rgba(230, 230, 230, 0.2), 12.21px 12.2082px 24.4164px rgba(230, 230, 230, 0.2);
+          box-shadow: -12.21px 12.2082px 30.9274px rgba(230, 230, 230, 0.9), -12.21px -12.2082px 24.4164px rgba(230, 230, 230, 0.2), 12.21px 12.2082px 24.4164px rgba(230, 230, 230, 0.2);
 }
 
 .s-ethaps-wrap-item-right {
