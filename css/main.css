@@ -1497,8 +1497,13 @@ header, footer {
   position: relative;
 }
 
+.speed-wrap-content-item-left img {
+  z-index: 1;
+}
+
 .speed-wrap-content-item-left img.arr {
   position: absolute;
+  z-index: 10;
   content: '';
   background-repeat: no-repeat;
   background-size: contain;
